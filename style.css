@@ -1,0 +1,28 @@
+@charset "utf-8";
+.music{
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+
+}
+.group {
+    border: 2px solid #666;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #f9f9f9;
+    }
+.group h3 {
+    margin: 0 0 5px 0;
+    text-decoration: underline;
+}
+.group p {
+    font-weight: bold;
+}
+.visible.is-hidden {
+  visibility: hidden;
+}
+.big {
+    font-size: large;
+}

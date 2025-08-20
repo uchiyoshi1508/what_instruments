@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <title>タイトル</title>
+        
+        <script src="what.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        
+        <h1>INSTRUMENT?</h1>
+
+        <p>セーブから読み込み</p>
+        <textarea id="saveInput" rows="5" cols="40" placeholder="ここに入力"></textarea>
+        <button type="button" onclick="loadFromSave()">ロード</button>
+
+        <br><br>
+        
+        <div id="m_list"></div>
+
+        <button type="button" onclick="addMusic()" class="big">曲追加</button>
+        <button type="button" onclick="result()" class="big">作成！</button>
+
+        <br><br>
+
+        <div id="result"></div>
+        <!--<button type="button" onclick="saveData()">保存</button>-->
+        <p>コピー用</p>
+        <textarea id="saveOutput" rows="5" cols="40" placeholder="ここに出力"></textarea>
+        <button type="button" onclick="copyOutput()">コピー</button>
+
+    </body>
+
+</html>
